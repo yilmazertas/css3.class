@@ -1,0 +1,37 @@
+/* a[target] {
+    background-color: yellow;
+} */
+
+/* a[target=_blank] {
+    background-color: red;
+} */
+
+/* [class~=site]{
+    border: 5px solid yellow;
+} */
+
+/* [class*=site] {
+    border:5px solid yellow
+} */
+
+/* [class^="search"] {
+    background-color: yellow;
+} */
+
+/* [ class$="search"]{
+    background-color: red;
+} */
+
+input[type="text"]:focus{
+background-color: yellow;
+}
+
+
+input[type="button"]:hover {
+background-color:red;
+color: white;
+}
+input[value="click here"]:active {
+background-color:blue;
+
+}

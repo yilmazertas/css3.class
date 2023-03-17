@@ -1,0 +1,15 @@
+/* div{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    overflow-x:hidden ;
+    overflow-y:scroll;
+} */
+
+div{
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
